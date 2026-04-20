@@ -1,0 +1,98 @@
+id,actividad,ia_nivel,ia_valor,datos_nivel,datos_valor,cuadrante
+1,"Monitorear prensa internacional, comunicados oficiales y coyuntura política",Alto,3,Medio,2,Alta IA · Bajo Datos
+2,Elaborar alertas tempranas (“risk flashes”) y reportes de situación,Alto,3,Alto,3,Alta IA · Alto Datos
+3,Elaborar briefs diarios/semanales y resúmenes ejecutivos (one-pagers),Alto,3,Medio,2,Alta IA · Bajo Datos
+4,"Analizar riesgos políticos, sociales, económicos y de seguridad",Medio,2,Alto,3,Baja IA · Alto Datos
+5,Construir escenarios (base/optimista/adverso) por país/sector,Alto,3,Alto,3,Alta IA · Alto Datos
+6,Mapear actores clave y redes de influencia (stakeholder mapping),Medio,2,Medio,2,Baja IA · Bajo Datos
+7,Mantener y actualizar directorios de contactos estratégicos,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+8,Preparar agendas para reuniones y puntos de conversación (talking points),Alto,3,Bajo,1,Alta IA · Bajo Datos
+9,"Redactar discursos, mensajes institucionales y posicionamientos oficiales",Alto,3,Bajo,1,Alta IA · Bajo Datos
+10,Coordinar reuniones bilaterales y multilaterales,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+11,"Negociar textos, acuerdos, memorandos y resoluciones",Medio,2,Bajo,1,Baja IA · Bajo Datos
+12,"Dar seguimiento a minutas, acuerdos, compromisos y mecanismos de consulta",Medio,2,Bajo,1,Baja IA · Bajo Datos
+13,Preparar expedientes para visitas oficiales y participación en cumbres/foros,Medio,2,Bajo,1,Baja IA · Bajo Datos
+14,"Organizar visitas de alto nivel (logística, seguridad, protocolo)",Bajo,1,Bajo,1,Baja IA · Bajo Datos
+15,Gestionar asuntos de protocolo y precedencia,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+16,Coordinar con dependencias gubernamentales y otras instituciones nacionales,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+17,Coordinar con embajadas de terceros países y organismos internacionales,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+18,"Realizar diplomacia pública (eventos culturales, conferencias, campañas)",Medio,2,Bajo,1,Baja IA · Bajo Datos
+19,Gestionar comunicación institucional y relación con medios,Medio,2,Bajo,1,Baja IA · Bajo Datos
+20,"Manejar crisis (comunicados, coordinación, seguimiento)",Alto,3,Medio,2,Alta IA · Bajo Datos
+21,Acompañar misiones empresariales y actividades de promoción económica/comercial,Medio,2,Medio,2,Baja IA · Bajo Datos
+22,Identificar oportunidades de inversión/comercio y estrategias de entrada a mercados,Medio,2,Alto,3,Baja IA · Alto Datos
+23,Dar seguimiento a tratados y marcos internacionales,Medio,2,Medio,2,Baja IA · Bajo Datos
+24,"Seguimiento a iniciativas legislativas, regulación secundaria y consultas públicas",Medio,2,Medio,2,Baja IA · Bajo Datos
+25,"Elaboración de análisis de cumplimiento (sanciones, export controls, comercio)",Medio,2,Alto,3,Baja IA · Alto Datos
+26,"Realizar due diligence de terceros (socios, proveedores, intermediarios)",Alto,3,Alto,3,Alta IA · Alto Datos
+27,"Evaluar exposición de cadenas de suministro (proveedores, rutas, puertos)",Medio,2,Alto,3,Baja IA · Alto Datos
+28,"Evaluar riesgo reputacional y ESG (DDHH, trabajo, ambiente)",Alto,3,Alto,3,Alta IA · Alto Datos
+29,"Diseñar políticas internas (compliance, integridad, datos, IA, ciber)",Medio,2,Medio,2,Baja IA · Bajo Datos
+30,Preparar y coordinar respuestas para auditorías y controles internos,Medio,2,Medio,2,Baja IA · Bajo Datos
+31,"Diseñar y ejecutar simulacros de crisis (war rooms, tabletop exercises)",Medio,2,Bajo,1,Baja IA · Bajo Datos
+32,"Coordinar equipos de respuesta (legal, PR, seguridad, operaciones)",Bajo,1,Bajo,1,Baja IA · Bajo Datos
+33,"Redactar comunicados, Q&A, líneas de mensaje y kits de prensa",Alto,3,Bajo,1,Alta IA · Bajo Datos
+34,Entrenar voceros y preparar entrevistas,Medio,2,Bajo,1,Baja IA · Bajo Datos
+35,Desarrollar alianzas con cámaras empresariales y asociaciones sectoriales,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+36,"Elaborar policy papers, reportes y recomendaciones de política pública",Alto,3,Alto,3,Alta IA · Alto Datos
+37,Preparar amicus/litigio estratégico (cuando aplica),Medio,2,Bajo,1,Baja IA · Bajo Datos
+38,Dar seguimiento a arbitrajes/controversias comerciales relevantes,Medio,2,Bajo,1,Baja IA · Bajo Datos
+39,"Diseñar métricas, KRIs y tableros de riesgo",Medio,2,Alto,3,Baja IA · Alto Datos
+40,Integrar inteligencia de fuentes abiertas (OSINT) para análisis de riesgo,Alto,3,Alto,3,Alta IA · Alto Datos
+41,Analizar ciber-riesgo geopolítico y amenazas híbridas (alto nivel),Medio,2,Medio,2,Baja IA · Bajo Datos
+42,Elaborar reportes para consejo/directivos y presentaciones ejecutivas,Alto,3,Medio,2,Alta IA · Bajo Datos
+43,"Gestionar proyectos (cronogramas, entregables, presupuestos)",Medio,2,Bajo,1,Baja IA · Bajo Datos
+44,Supervisar equipos/analistas y control de calidad de productos,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+45,"Desarrollo de negocio: prospección, pipeline, RFPs y cierres de contrato",Medio,2,Bajo,1,Baja IA · Bajo Datos
+46,"Coordinar trabajo con despachos legales, firmas de seguridad y PR externas",Bajo,1,Bajo,1,Baja IA · Bajo Datos
+47,"Atención consular (protección, documentación, emergencias)",Medio,2,Bajo,1,Baja IA · Bajo Datos
+48,"Operativos consulares especiales (jornadas, atención masiva, módulos móviles)",Medio,2,Medio,2,Baja IA · Bajo Datos
+49,Coordinación con autoridades locales sobre protección consular,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+50,"Seguimiento a casos legales de connacionales (detenciones, audiencias, deportaciones)",Bajo,1,Bajo,1,Baja IA · Bajo Datos
+51,Vinculación con comunidades en el exterior,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+52,Gestión de programas de apoyo comunitario,Medio,2,Medio,2,Baja IA · Bajo Datos
+53,Elaboración de informes sobre derechos humanos y situación de comunidades,Medio,2,Medio,2,Baja IA · Bajo Datos
+54,"Gestionar cooperación internacional (técnica, científica, educativa, cultural)",Medio,2,Medio,2,Baja IA · Bajo Datos
+55,Identificar fuentes de financiamiento internacional y convocatorias,Alto,3,Bajo,1,Alta IA · Bajo Datos
+56,Diseñar y coordinar proyectos de cooperación (incluida triangular/Sur-Sur),Medio,2,Medio,2,Baja IA · Bajo Datos
+57,"Elaborar presupuestos, control de gastos y reportes administrativos",Medio,2,Medio,2,Baja IA · Bajo Datos
+58,Contratación/gestión de proveedores y servicios,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+59,Supervisión de personal y coordinación operativa de equipos internos,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+60,"Cumplimiento normativo interno (auditorías, controles, procedimientos)",Medio,2,Bajo,1,Baja IA · Bajo Datos
+61,Capacitación interna y actualización en lineamientos,Medio,2,Bajo,1,Baja IA · Bajo Datos
+62,Resguardar y organizar archivos oficiales y correspondencia,Medio,2,Bajo,1,Baja IA · Bajo Datos
+63,Elaborar reportes de cierre/transición de funciones,Medio,2,Bajo,1,Baja IA · Bajo Datos
+64,Curaduría de fuentes y verificación (fact-checking),Alto,3,Medio,2,Alta IA · Bajo Datos
+65,"Lectura y análisis de documentos oficiales (leyes, tratados, informes)",Alto,3,Medio,2,Alta IA · Bajo Datos
+66,"Seguimiento de indicadores (comercio, migración, energía, seguridad, clima, etc.)",Medio,2,Alto,3,Baja IA · Alto Datos
+67,"Descargar, limpiar y analizar bases de datos públicas",Medio,2,Alto,3,Baja IA · Alto Datos
+68,"Elaborar series históricas, visualizaciones y tableros",Medio,2,Alto,3,Baja IA · Alto Datos
+69,"Diseñar metodologías de índices y métricas (rankings, indicadores compuestos)",Medio,2,Alto,3,Baja IA · Alto Datos
+70,"Redactar artículos, columnas, boletines y notas de coyuntura",Alto,3,Medio,2,Alta IA · Bajo Datos
+71,Producir explicadores y cronologías/líneas de tiempo,Alto,3,Medio,2,Alta IA · Bajo Datos
+72,"Entrevistar expertos, funcionarios y actores relevantes",Medio,2,Bajo,1,Baja IA · Bajo Datos
+73,Solicitar información vía mecanismos de transparencia (cuando aplica),Medio,2,Bajo,1,Baja IA · Bajo Datos
+74,Preparar guiones para radio/TV/podcast/video,Alto,3,Medio,2,Alta IA · Bajo Datos
+75,Participar en entrevistas y mesas de análisis,Bajo,1,Bajo,1,Baja IA · Bajo Datos
+76,"Organizar y moderar paneles, foros y seminarios",Bajo,1,Bajo,1,Baja IA · Bajo Datos
+77,Preparar presentaciones para conferencias,Alto,3,Medio,2,Alta IA · Bajo Datos
+78,Diseñar y ejecutar encuestas/sondeos (cuando aplica),Medio,2,Alto,3,Baja IA · Alto Datos
+79,Analizar discursos y documentos con enfoques cualitativos (content analysis),Alto,3,Alto,3,Alta IA · Alto Datos
+80,"Monitorear organismos internacionales (ONU, OEA, OCDE, FMI, etc.)",Medio,2,Medio,2,Baja IA · Bajo Datos
+81,"Dar seguimiento a sanciones, resoluciones, votaciones y declaraciones conjuntas",Medio,2,Medio,2,Baja IA · Bajo Datos
+82,Diseñar proyectos de investigación y levantamiento de evidencia,Medio,2,Alto,3,Baja IA · Alto Datos
+83,"Gestionar financiamiento (becas, grants, donantes)",Bajo,1,Bajo,1,Baja IA · Bajo Datos
+84,Elaborar términos de referencia y coordinar consultores,Medio,2,Bajo,1,Baja IA · Bajo Datos
+85,"Gestionar alianzas con universidades, ONGs y centros de investigación",Bajo,1,Bajo,1,Baja IA · Bajo Datos
+86,"Docencia (clases, seminarios, talleres)",Medio,2,Bajo,1,Baja IA · Bajo Datos
+87,"Diseñar programas, lecturas, evaluaciones y rúbricas",Alto,3,Bajo,1,Alta IA · Bajo Datos
+88,Dirección de tesis/proyectos y mentoría,Medio,2,Bajo,1,Baja IA · Bajo Datos
+89,"Construir repositorios, bibliografías y bases documentales",Medio,2,Medio,2,Baja IA · Bajo Datos
+90,"Publicación académica (papers, capítulos, arbitraje)",Medio,2,Medio,2,Baja IA · Bajo Datos
+91,Revisión por pares / dictaminación (cuando aplica),Medio,2,Bajo,1,Baja IA · Bajo Datos
+92,Gestión de redes sociales y estrategia de difusión,Alto,3,Medio,2,Alta IA · Bajo Datos
+93,Producción de newsletters y campañas de comunicación pública,Alto,3,Medio,2,Alta IA · Bajo Datos
+94,"Medición de impacto (alcance, citas, descargas, engagement)",Medio,2,Alto,3,Baja IA · Alto Datos
+95,Actualización de sitio web/portafolio y materiales públicos,Medio,2,Bajo,1,Baja IA · Bajo Datos
+96,"Participación en comités, consejos editoriales o grupos de trabajo",Bajo,1,Bajo,1,Baja IA · Bajo Datos
+97,Organización de viajes de investigación y trabajo de campo (cuando aplica),Bajo,1,Bajo,1,Baja IA · Bajo Datos

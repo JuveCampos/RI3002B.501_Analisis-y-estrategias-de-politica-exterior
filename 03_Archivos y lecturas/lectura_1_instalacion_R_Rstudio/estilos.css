@@ -1,0 +1,27 @@
+.tip-con-avatar {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  flex-direction: row-reverse;
+}
+
+.tip-con-avatar .avatar-tip {
+  flex: 0 0 auto;
+  width: 480px;
+  height: auto;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.tip-con-avatar .tip-contenido {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.tip-con-avatar .tip-contenido > p:first-child {
+  margin-top: 0;
+}
+
+.tip-con-avatar .tip-contenido > p:last-child {
+  margin-bottom: 0;
+}

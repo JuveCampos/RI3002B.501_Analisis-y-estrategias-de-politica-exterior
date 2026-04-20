@@ -1,0 +1,277 @@
+---
+title: "Lectura 1 · Guía de instalación: R, RStudio y librerías esenciales"
+subtitle: "RI3002B.501 — Análisis y estrategias de política exterior"
+author: "Jorge Juvenal Campos Ferreira"
+date: today
+lang: es
+language:
+  title-block-author-single: "Autor"
+  title-block-author-plural: "Autores"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    code-copy: true
+    code-overflow: wrap
+    theme: cosmo
+    fig-align: center
+    fig-cap-location: bottom
+    embed-resources: true
+    css: estilos.css
+execute:
+  eval: false
+  echo: true
+---
+
+## Por qué R y RStudio en este curso
+
+En **Análisis y estrategias de política exterior** vamos a trabajar con datos cuantitativos (encuestas, indicadores macroeconómicos, comercio internacional, opinión pública), análisis geoespacial y reportes reproducibles. R es el ecosistema estándar para este tipo de tareas en investigación aplicada de RRII, y RStudio es el entorno de trabajo que usaremos a lo largo de todo el curso.
+
+::: {layout-ncol="2" layout-valign="center"}
+![R — lenguaje de programación estadística](imagenes/r-logo.png){#fig-rlogo width=180}
+
+![RStudio — entorno de desarrollo (Posit)](imagenes/rstudio-logo.svg){#fig-rstudio width=320}
+:::
+
+::: {.callout-tip icon=false}
+::: {.tip-con-avatar}
+![](señalando.png){.avatar-tip}
+
+::: {.tip-contenido}
+**Orden de instalación y uso diario.** Se instala primero **R** (el motor del lenguaje) y después **RStudio** (la interfaz). Una vez listos los dos, **nunca abras R directamente**: trabajaremos siempre desde RStudio. R queda corriendo "por debajo" y RStudio se encarga de todo lo demás (consola, scripts, gráficos, archivos, ayuda).
+:::
+:::
+:::
+
+## Instalar R
+
+### macOS
+
+Descarga el instalador desde la página oficial de CRAN:
+
+<https://cran.r-project.org/bin/macosx/>
+
+Elige el archivo según el chip de tu Mac:
+
+- **Apple Silicon (M1, M2, M3, M4)** → `R-x.x.x-arm64.pkg`
+- **Intel** (Macs anteriores a 2020 y algunos de 2020) → `R-x.x.x-x86_64.pkg`
+
+Si no estás seguro de cuál tienes, ve al menú Apple () → *Acerca de este Mac*. Si dice "Apple M1/M2/M3/M4" usa el `arm64`; si dice "Intel" usa el `x86_64`.
+
+### Windows
+
+Descarga e instala desde:
+
+<https://cran.r-project.org/bin/windows/base/>
+
+Acepta las opciones por defecto del instalador.
+
+## Instalar RStudio
+
+Descarga **RStudio Desktop** (gratuito) desde Posit:
+
+<https://posit.co/download/rstudio-desktop/>
+
+La página detecta tu sistema operativo automáticamente y te ofrece el instalador correcto. En macOS con Apple Silicon, verifica que estés bajando la versión **arm64**.
+
+::: {.callout-tip icon=false}
+::: {.tip-con-avatar}
+![](señalando.png){.avatar-tip}
+
+::: {.tip-contenido}
+**Primer arranque.** Al abrir RStudio por primera vez, mira el panel inferior izquierdo (la *Console*) y confirma que aparece una línea como `R version 4.x.x ...`. Si dice "R not found", significa que la instalación de R no terminó o se hizo después de RStudio: cierra RStudio, completa la instalación de R y vuelve a abrir RStudio.
+:::
+:::
+:::
+
+## Instalar las librerías esenciales
+
+A continuación encontrarás varios bloques de código de R organizados por uso. Para instalarlos, **copia cada bloque y pégalo en la *Console* de RStudio** (panel inferior izquierdo) y presiona Enter. RStudio se encarga del resto: descarga los paquetes desde internet, los compila si hace falta y los deja listos para usar. Puedes correr sólo los módulos que necesites en cada sesión, o saltar al apartado [Instalación en un solo comando] si prefieres dejar todo instalado de una vez.
+
+### Núcleo: tidyverse y utilidades
+
+```{r}
+install.packages(c(
+  "tidyverse",  # dplyr, ggplot2, tidyr, readr, purrr, tibble, stringr, forcats
+  "scales",     # formateo de ejes (porcentajes, pesos, etc.)
+  "janitor",    # clean_names() y tabulaciones rápidas
+  "lubridate",  # fechas
+  "glue",       # interpolación de strings
+  "here"        # rutas relativas robustas
+))
+```
+
+### Importación de datos
+
+```{r}
+install.packages(c(
+  "readxl", "writexl",  # Excel
+  "haven",              # SPSS, Stata, SAS (ENOE, ENIGH)
+  "data.table",         # lectura rápida
+  "arrow"               # parquet
+))
+```
+
+### Encuestas complejas
+
+```{r}
+install.packages(c(
+  "survey",
+  "srvyr"  # wrapper tidyverse para survey
+))
+```
+
+### Geoespacial
+
+```{r}
+install.packages(c(
+  "sf",       # vectores
+  "terra",    # raster
+  "leaflet",  # mapas web
+  "tmap",     # mapas temáticos
+  "mapview"   # previsualización rápida
+))
+```
+
+### Shiny y visualización interactiva
+
+```{r}
+install.packages(c(
+  "shiny",
+  "bslib",         # temas Bootstrap modernos
+  "shinyWidgets",
+  "DT",            # tablas interactivas
+  "plotly",        # gráficos interactivos
+  "htmlwidgets",
+  "reactable"      # tablas elegantes
+))
+```
+
+### Reportes y documentación
+
+```{r}
+install.packages(c(
+  "rmarkdown",
+  "knitr",
+  "quarto",
+  "gt",          # tablas publicables
+  "gtsummary",   # tablas de resumen estadístico
+  "flextable"    # tablas para Word
+))
+```
+
+### APIs y scraping
+
+```{r}
+install.packages(c(
+  "httr2",
+  "jsonlite",
+  "rvest",
+  "xml2"
+))
+```
+
+### Econometría e inferencia causal
+
+```{r}
+install.packages(c(
+  "fixest",          # modelos con efectos fijos
+  "modelsummary",    # tablas de regresión
+  "broom",
+  "marginaleffects",
+  "did",             # DiD modernos
+  "MatchIt",         # propensity score
+  "Synth",           # controles sintéticos
+  "rdrobust"         # RD
+))
+```
+
+## Instalación en un solo comando
+
+Si prefieres dejar todo instalado de una sola vez, copia y pega este bloque en la *Console* de RStudio:
+
+```{r}
+pkgs <- c(
+  # Núcleo
+  "tidyverse", "scales", "janitor", "lubridate", "glue", "here",
+  # Importación
+  "readxl", "writexl", "haven", "data.table", "arrow",
+  # Encuestas
+  "survey", "srvyr",
+  # Geoespacial
+  "sf", "terra", "leaflet", "tmap", "mapview",
+  # Shiny e interactividad
+  "shiny", "bslib", "shinyWidgets", "DT", "plotly", "htmlwidgets", "reactable",
+  # Reportes
+  "rmarkdown", "knitr", "quarto", "gt", "gtsummary", "flextable",
+  # APIs y scraping
+  "httr2", "jsonlite", "rvest", "xml2",
+  # Econometría e inferencia causal
+  "fixest", "modelsummary", "broom", "marginaleffects",
+  "did", "MatchIt", "Synth", "rdrobust"
+)
+
+faltantes <- setdiff(pkgs, rownames(installed.packages()))
+install.packages(faltantes)
+```
+
+El `setdiff()` calcula sólo los paquetes que **no** estén ya instalados, así que el bloque es seguro de re-ejecutar.
+
+### Datos económicos mexicanos (Banxico / INEGI)
+
+Para pipelines con fuentes locales, agrega también:
+
+```{r}
+install.packages(c("siebanxicor", "inegiR"))
+```
+
+## Verificación final
+
+Una vez terminadas las instalaciones, copia y pega lo siguiente en la *Console* para confirmar que el entorno carga sin advertencias:
+
+```{r}
+library(tidyverse)
+library(sf)
+library(shiny)
+
+sessionInfo()
+```
+
+Si `sessionInfo()` muestra las versiones de los paquetes sin errores rojos, la instalación quedó lista para las siguientes sesiones del curso.
+
+::: {.callout-important}
+**Si algo falla.** Copia el mensaje de error completo (no sólo la última línea) y compártelo en la sesión. Los errores de instalación de `sf`, `terra` o `arrow` casi siempre son por dependencias del sistema operativo y se resuelven antes de tocar R.
+:::
+
+## Apéndice · ¿Qué es Homebrew y por qué te conviene tenerlo?
+
+Más adelante en el curso vamos a usar herramientas que se instalan más fácilmente desde la terminal. En **macOS**, la forma estándar de hacerlo es con un programa llamado **Homebrew** (`brew`). Vale la pena instalarlo desde ahora.
+
+**¿Qué es?** Homebrew es un *gestor de paquetes* para macOS: un programa que descarga, instala y mantiene actualizado *otro* software (lenguajes, bases de datos, utilidades de línea de comandos, etc.) con un solo comando. Es el equivalente, para el sistema operativo, de lo que `install.packages()` es para R.
+
+**¿Por qué nos importa?** Algunas librerías de R que vimos arriba — sobre todo las geoespaciales (`sf`, `terra`) — dependen de programas externos al ecosistema de R (`GDAL`, `GEOS`, `PROJ`). Con Homebrew se instalan en segundos; sin él, hay que bajarlos a mano desde sus sitios oficiales.
+
+### Cómo instalarlo (sólo macOS)
+
+1. Abre la aplicación **Terminal** (Aplicaciones → Utilidades → Terminal, o búscala con Spotlight: `Cmd + Espacio` y escribe "Terminal").
+2. Ve a la página oficial: <https://brew.sh>
+3. Copia el comando de instalación que aparece en la página principal y pégalo en la Terminal.
+4. Presiona Enter y sigue las instrucciones (te pedirá tu contraseña de macOS).
+
+Cuando termine, cierra y vuelve a abrir la Terminal. Para confirmar que quedó instalado, escribe:
+
+``` bash
+brew --version
+```
+
+Si responde con un número de versión (algo como `Homebrew 4.x.x`), ya está listo. A partir de ahí podrás instalar dependencias del sistema cuando lo necesitemos. Por ejemplo, para las librerías geoespaciales:
+
+``` bash
+brew install gdal geos proj
+```
+
+::: {.callout-note}
+**Windows.** En Windows no se necesita Homebrew: los binarios de CRAN ya empaquetan las dependencias nativas, así que las librerías geoespaciales se instalan sin pasos adicionales.
+:::

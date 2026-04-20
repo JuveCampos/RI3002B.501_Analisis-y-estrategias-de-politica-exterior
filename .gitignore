@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Instrucciones locales para Claude Code
+CLAUDE.md
+
+# Keynote (archivos binarios de presentaciones)
+*.key
