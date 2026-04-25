@@ -1,0 +1,37 @@
+{
+  "chart": {
+    "title": "Share of population living in extreme poverty",
+    "subtitle": "Extreme poverty is defined as living below the International Poverty Line of $3 per day. This data is adjusted for inflation and for differences in living costs between countries.",
+    "note": "This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2021 prices. Depending on the country and year, it relates to income (measured after taxes and benefits) or to consumption, [per capita](#dod:per-capita).",
+    "citation": "World Bank Poverty and Inequality Platform (2026)",
+    "originalChartUrl": "https://ourworldindata.org/explorers/poverty-explorer?Indicator=Share+in+poverty&Poverty+line=%243+per+day%3A+International+Poverty+Line&Household+survey+data+type=Show+data+from+both+income+and+consumption+surveys&Show+breaks+between+less+comparable+surveys=false&country=BGD~BOL~KEN~MOZ~NGA~ZMB",
+    "selection": [
+      "Bangladesh",
+      "Bolivia",
+      "Kenya",
+      "Mozambique",
+      "Nigeria",
+      "Zambia"
+    ]
+  },
+  "columns": {
+    "country": {
+      "titleShort": "Country",
+      "titleLong": "Country",
+      "type": "EntityName",
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Country” [dataset]. World Bank Poverty and Inequality Platform (2026) [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/undefined.metadata.json"
+    },
+    "headcount_ratio_300": {
+      "titleShort": "Share below $3 a day",
+      "titleLong": "Share below $3 a day",
+      "type": "Numeric",
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Share below $3 a day” [dataset]. World Bank Poverty and Inequality Platform (2026) [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/undefined.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-04-24",
+  "activeFilters": {}
+}
